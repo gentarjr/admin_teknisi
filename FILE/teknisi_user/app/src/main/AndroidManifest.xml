@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skripsi.teknisi_user" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logodepan1"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="SELAMAT DATANG"/>
+        <activity android:name=".teknisi.Laporan_pekerjaan"
+            android:label="LAPORAN KERJA"/>
+        <activity android:name=".teknisi.History_laporan"
+            android:label="HISTORY LAPORAN"/>
+        <activity android:name=".teknisi.Jadwal_piket"
+            android:label="JADWAL PIKET"/>
+        <activity android:name=".teknisi.Kinerja_teknisi"
+            android:label="KINERJA TEKNISI"/>
+        <activity android:name=".teknisi.Edit_profile"
+            android:label="EDIT PROFILE"/>
+    </application>
+
+</manifest>

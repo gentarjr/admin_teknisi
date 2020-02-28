@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="358dp"
+            android:layout_height="666dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_id"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="USERNAME"
+                android:visibility="gone"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_username"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="USERNAME"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_nama_lengkap"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="NAMA LENGKAP"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:hint="EMAIL" />
+
+            <EditText
+                android:id="@+id/txt_no_telp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:hint="NO TELP" />
+
+            <EditText
+                android:id="@+id/txt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:password="true"
+                android:hint="PASSWORD" />
+
+            <RadioGroup
+                android:id="@+id/grup_divisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true" >
+
+                <RadioButton
+                    android:id="@+id/it"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IT"/>
+
+
+                <RadioButton
+                    android:id="@+id/jaringan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JARINGAN"/>
+
+
+                <RadioButton
+                    android:id="@+id/infrastruktur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INFRASTRUKTUR"/>
+
+                <Button
+                    android:id="@+id/btn_simpan"
+                    android:layout_width="379dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="#448AFF"
+                    android:onClick="Laporan_pekerjaan"
+                    android:text="UPDATE DATA"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

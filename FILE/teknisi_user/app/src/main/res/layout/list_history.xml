@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="38dp"
+            android:text="TEKNISI : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/teknisi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="38dp"
+            android:text="NIP : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+        <TextView
+            android:id="@+id/nip"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="38dp"
+            android:text="TANGGAL : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="38dp"
+            android:text="NAMA KEGIATAN : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="38dp"
+            android:text="JAM KEGIATAN : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/jam"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:layout_width="206dp"
+            android:layout_height="38dp"
+            android:text="KODE PERBAIKAN : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/kode"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+</LinearLayout>

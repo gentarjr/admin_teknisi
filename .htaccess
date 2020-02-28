@@ -1,0 +1,3 @@
+<IfModule mod_rewrite.c>
+RewriteRule ^news/([^/]*)/([^/]*)/?$	/news.php?id=$2
+</IfModule>
